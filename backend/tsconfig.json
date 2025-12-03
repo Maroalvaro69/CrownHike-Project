@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* === Ścieżki projektu === */
+    "rootDir": "src",
+    "outDir": "dist",
+
+    /* === Tryb modułów === */
+    "target": "ES2021",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    /* === Typowanie i zgodność === */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* === Mapy i pliki wyjściowe === */
+    "sourceMap": true,
+    "declaration": false,
+
+    /* === Dla środowiska Node.js === */
+    "types": ["node"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
